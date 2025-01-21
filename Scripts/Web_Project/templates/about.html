@@ -1,0 +1,41 @@
+{% extends "main.html" %}
+{% load static %}
+
+{% block class %}class="sub_page"{% endblock class %}
+{% block about_status %}active{% endblock about_status %}
+
+{% block main %}  
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container  ">
+
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="{% static 'images/about-img.png' %} " alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Sky Restaurant
+              </h2>
+            </div>
+           
+              
+              <div>
+                <p>
+                  Sky Restaurant is a culinary gem that combines exquisite dining with breathtaking views. Perched in a stunning location, it offers an elegant ambiance perfect for intimate dinners, family gatherings, or special celebrations. The menu boasts a fusion of global cuisines, crafted with fresh, locally sourced ingredients, ensuring every dish is a masterpiece. From gourmet appetizers and hearty main courses to decadent desserts, Sky Restaurant caters to all palates. The warm, attentive staff and impeccable service create an unforgettable dining experience. Whether you're savoring a fine meal or enjoying a refreshing drink, Sky Restaurant takes your dining experience to new heights.
+              </p>
+             </div>
+             
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ {% endblock main %}
